@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "Accesso",
+    "email": "Email",
+    "password": "Password",
+    "button": "Accedi",
+    "no_account": "Non hai un account?",
+    "signup": "Registrati",
+    "enter_both": "Inserisci sia l'email che la password.",
+    "user_not_found": "Nessun account trovato con questa email.",
+    "wrong_password": "La password inserita non è corretta.",
+    "invalid_email": "Inserisci un indirizzo email valido.",
+    "too_many_attempts": "Troppi tentativi falliti. Riprova più tardi.",
+    "network_error": "Errore di rete. Controlla la connessione.",
+    "user_disabled": "Questo account è stato disabilitato. Contatta il supporto.",
+    "failed": "Accesso fallito:",
+    "general_error": "Si è verificato un errore. Riprova.",
+    "role_missing": "Il tuo account non ha un ruolo assegnato. Contatta il supporto."
+  },
+  "register": {
+    "title": "Crea Account",
+    "full_name": "Nome completo",
+    "email": "Email",
+    "password": "Password",
+    "employee_id": "ID Dipendente",
+    "button": "Registrati",
+    "fill_all_fields": "Compila tutti i campi.",
+    "email_exists": "Questa email è già registrata.",
+    "weak_password": "La password è troppo debole.",
+    "invalid_email": "Formato email non valido.",
+    "auth_error": "Errore di autenticazione:",
+    "firestore_error": "Errore durante il salvataggio dei dati. Riprova.",
+    "general_error": "Errore imprevisto.",
+    "success_message": "Tutto pronto!"
+  },
+  "change_password": {
+    "title": "Cambia Password",
+    "current": "Password Attuale",
+    "new": "Nuova Password",
+    "confirm": "Conferma Nuova Password",
+    "button": "Aggiorna Password",
+    "mismatch": "Le nuove password non corrispondono.",
+    "too_short": "La password deve contenere almeno 6 caratteri.",
+    "incorrect_current": "La password attuale è errata.",
+    "generic_error": "Impossibile cambiare la password. Riprova.",
+    "general_error": "Si è verificato un errore. Riprova.",
+    "success_message": "Password cambiata con successo"
+  },
+  "home": {
+    "title": "Oggetti Smarriti",
+    "search_hint": "Cerca il tuo oggetto...",
+    "recently_found": "Appena Trovati",
+    "see_all": "Vedi Tutto"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Esplora",
+    "claims": "I Miei Reclami",
+    "settings": "Impostazioni"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "account": "Account",
+    "view_account": "Visualizza Info Account",
+    "preferences": "Preferenze",
+    "notifications": "Notifiche",
+    "language": "Lingua",
+    "theme": "Tema (Chiaro/Scuro)",
+    "support": "Supporto",
+    "faq": "FAQ e Aiuto",
+    "privacy": "Politica sulla Privacy",
+    "logout": "Esci"
+  },
+  "filter": {
+    "title": "Dove potresti averlo perso?",
+    "category": "Categoria",
+    "date_range": "Intervallo di Date",
+    "from_date": "Da: {}",
+    "to_date": "A: {}",
+    "from_date_placeholder": "Data Inizio",
+    "to_date_placeholder": "Data Fine",
+    "button": "Cerca",
+    "invalid_date": "Inserisci una data valida (non futura)."
+  },
+  "account": {
+    "title": "Info Account",
+    "name": "Nome completo",
+    "email": "Email",
+    "role": "Ruolo",
+    "password": "Password",
+    "change": "Cambia"
+  },
+  "splash": {
+    "title": "Oggetti Smarriti Intelligenti"
+  },
+  "language": {
+    "title": "Seleziona Lingua",
+    "en": "Inglese",
+    "ar": "Arabo",
+    "fr": "Francese",
+    "es": "Spagnolo",
+    "de": "Tedesco",
+    "pt": "Portoghese",
+    "zh": "Cinese",
+    "it": "Italiano"
+  },
+  "claims": {
+    "title": "I Miei Reclami",
+    "no_items": "Non hai ancora reclamato nessun oggetto."
+  }
+}

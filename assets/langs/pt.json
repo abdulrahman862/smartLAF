@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "Entrar",
+    "email": "Email",
+    "password": "Senha",
+    "button": "Entrar",
+    "no_account": "Não tem uma conta?",
+    "signup": "Cadastrar-se",
+    "enter_both": "Por favor, insira email e senha.",
+    "user_not_found": "Não encontramos uma conta com este email.",
+    "wrong_password": "A senha inserida está incorreta.",
+    "invalid_email": "Por favor, insira um endereço de email válido.",
+    "too_many_attempts": "Muitas tentativas. Tente novamente mais tarde.",
+    "network_error": "Erro de rede. Verifique sua conexão.",
+    "user_disabled": "Esta conta foi desativada. Contate o suporte.",
+    "failed": "Erro no login:",
+    "general_error": "Algo deu errado. Tente novamente.",
+    "role_missing": "Sua conta está sem informação de função. Contate o suporte."
+  },
+  "register": {
+    "title": "Criar Conta",
+    "full_name": "Nome completo",
+    "email": "Email",
+    "password": "Senha",
+    "employee_id": "ID do Funcionário",
+    "button": "Registrar",
+    "fill_all_fields": "Por favor, preencha todos os campos.",
+    "email_exists": "Este email já está registrado.",
+    "weak_password": "Senha muito fraca.",
+    "invalid_email": "Formato de email inválido.",
+    "auth_error": "Erro de autenticação:",
+    "firestore_error": "Erro ao salvar os dados. Tente novamente.",
+    "general_error": "Ocorreu um erro inesperado.",
+    "success_message": "Tudo pronto para começar"
+  },
+  "change_password": {
+    "title": "Alterar Senha",
+    "current": "Senha Atual",
+    "new": "Nova Senha",
+    "confirm": "Confirmar Nova Senha",
+    "button": "Atualizar Senha",
+    "mismatch": "As senhas não coincidem.",
+    "too_short": "A senha deve ter pelo menos 6 caracteres.",
+    "incorrect_current": "Senha atual incorreta.",
+    "generic_error": "Não foi possível alterar a senha. Tente novamente.",
+    "general_error": "Algo deu errado. Tente novamente.",
+    "success_message": "Senha alterada com sucesso"
+  },
+  "home": {
+    "title": "Achados e Perdidos",
+    "search_hint": "Procure seu item...",
+    "recently_found": "Recentemente Encontrados",
+    "see_all": "Ver Todos"
+  },
+  "nav": {
+    "home": "Início",
+    "browse": "Procurar",
+    "claims": "Meus Itens",
+    "settings": "Configurações"
+  },
+  "settings": {
+    "title": "Configurações",
+    "account": "Conta",
+    "view_account": "Ver Informações da Conta",
+    "preferences": "Preferências",
+    "notifications": "Notificações",
+    "language": "Idioma",
+    "theme": "Tema (Claro/Escuro)",
+    "support": "Suporte",
+    "faq": "FAQ e Ajuda",
+    "privacy": "Política de Privacidade",
+    "logout": "Sair"
+  },
+  "filter": {
+    "title": "Onde você pode ter perdido?",
+    "category": "Categoria",
+    "date_range": "Intervalo de Datas",
+    "from_date": "De: {}",
+    "to_date": "Até: {}",
+    "from_date_placeholder": "Data Inicial",
+    "to_date_placeholder": "Data Final",
+    "button": "Pesquisar",
+    "invalid_date": "Digite uma data válida (não no futuro)."
+  },
+  "account": {
+    "title": "Informações da Conta",
+    "name": "Nome completo",
+    "email": "Email",
+    "role": "Função",
+    "password": "Senha",
+    "change": "Alterar"
+  },
+  "splash": {
+    "title": "Achados e Perdidos Inteligente"
+  },
+  "language": {
+    "title": "Selecionar Idioma",
+    "en": "Inglês",
+    "ar": "Árabe",
+    "fr": "Francês",
+    "es": "Espanhol",
+    "de": "Alemão",
+    "pt": "Português",
+    "zh": "Chinês",
+    "it": "Italiano"
+  },
+  "claims": {
+    "title": "Minhas Reivindicações",
+    "no_items": "Você ainda não reivindicou nenhum item."
+  }
+}

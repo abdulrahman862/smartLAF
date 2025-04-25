@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "button": "Login",
+    "no_account": "Don't have an account?",
+    "signup": "Sign up",
+    "enter_both": "Please enter both email and password.",
+    "user_not_found": "We couldn’t find an account with that email.",
+    "wrong_password": "The password you entered is incorrect.",
+    "invalid_email": "Please enter a valid email address.",
+    "too_many_attempts": "Too many failed attempts. Please try again later.",
+    "network_error": "Network error. Please check your connection.",
+    "user_disabled": "This account has been disabled. Contact support.",
+    "failed": "Login failed:",
+    "general_error": "Something went wrong. Please try again.",
+    "role_missing": "Your account is missing role information. Contact support."
+  },
+  "register": {
+    "title": "Create Account",
+    "full_name": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "employee_id": "Employee ID",
+    "button": "Register",
+    "fill_all_fields": "Please fill in all fields.",
+    "email_exists": "This email is already registered.",
+    "weak_password": "Password is too weak.",
+    "invalid_email": "Invalid email format.",
+    "auth_error": "Authentication error:",
+    "firestore_error": "Error saving user data. Please try again.",
+    "general_error": "Unexpected error occurred.",
+    "success_message": "You're set to go"
+  },
+  "change_password": {
+    "title": "Change Password",
+    "current": "Current Password",
+    "new": "New Password",
+    "confirm": "Confirm New Password",
+    "button": "Update Password",
+    "mismatch": "New passwords do not match.",
+    "too_short": "Password must be at least 6 characters.",
+    "incorrect_current": "Current password is incorrect.",
+    "generic_error": "Unable to change password. Please try again.",
+    "general_error": "Something went wrong. Try again.",
+    "success_message": "Password changed successfully"
+  },
+  "home": {
+    "title": "Lost & Found",
+    "search_hint": "Search for your item...",
+    "recently_found": "Recently Found",
+    "see_all": "See All"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "claims": "My Claims",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "view_account": "View Account Info",
+    "preferences": "Preferences",
+    "notifications": "Notifications",
+    "language": "Language",
+    "theme": "Theme (Light/Dark)",
+    "support": "Support",
+    "faq": "FAQ & Help",
+    "privacy": "Privacy Policy",
+    "logout": "Log Out"
+  },
+  "filter": {
+    "title": "Where might you have lost it?",
+    "category": "Category",
+    "date_range": "Date Range",
+    "from_date": "From: {}",
+    "to_date": "To: {}",
+    "from_date_placeholder": "From Date",
+    "to_date_placeholder": "To Date",
+    "button": "Search",
+    "invalid_date": "Enter a valid date (not in the future)."
+  },
+  "account": {
+    "title": "Account Info",
+    "name": "Full Name",
+    "email": "Email",
+    "role": "Role",
+    "password": "Password",
+    "change": "Change"
+  },
+  "splash": {
+    "title": "Smart Lost & Found"
+  },
+  "language": {
+    "title": "Select Language",
+    "en": "English",
+    "ar": "Arabic",
+    "fr": "French",
+    "es": "Spanish",
+    "de": "German",
+    "pt": "Portuguese",
+    "zh": "Chinese",
+    "it": "Italian"
+  },
+  "claims": {
+    "title": "My Claims",
+    "no_items": "You haven’t claimed any items yet."
+  }
+}

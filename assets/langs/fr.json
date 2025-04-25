@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "button": "Se connecter",
+    "no_account": "Vous n'avez pas de compte ?",
+    "signup": "S'inscrire",
+    "enter_both": "Veuillez saisir l'e-mail et le mot de passe.",
+    "user_not_found": "Aucun compte trouvé avec cet e-mail.",
+    "wrong_password": "Mot de passe incorrect.",
+    "invalid_email": "Veuillez saisir une adresse e-mail valide.",
+    "too_many_attempts": "Trop de tentatives. Réessayez plus tard.",
+    "network_error": "Erreur réseau. Vérifiez votre connexion.",
+    "user_disabled": "Ce compte a été désactivé. Contactez le support.",
+    "failed": "Échec de la connexion :",
+    "general_error": "Une erreur s'est produite. Veuillez réessayer.",
+    "role_missing": "Le rôle de votre compte est manquant. Contactez le support."
+  },
+  "register": {
+    "title": "Créer un compte",
+    "full_name": "Nom complet",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "employee_id": "ID Employé",
+    "button": "S'inscrire",
+    "fill_all_fields": "Veuillez remplir tous les champs.",
+    "email_exists": "Cet e-mail est déjà utilisé.",
+    "weak_password": "Mot de passe trop faible.",
+    "invalid_email": "Format d'e-mail invalide.",
+    "auth_error": "Erreur d'authentification :",
+    "firestore_error": "Erreur lors de l'enregistrement. Veuillez réessayer.",
+    "general_error": "Une erreur inattendue s'est produite.",
+    "success_message": "Votre compte est prêt"
+  },
+  "change_password": {
+    "title": "Changer le mot de passe",
+    "current": "Mot de passe actuel",
+    "new": "Nouveau mot de passe",
+    "confirm": "Confirmer le mot de passe",
+    "button": "Mettre à jour",
+    "mismatch": "Les mots de passe ne correspondent pas.",
+    "too_short": "Le mot de passe doit contenir au moins 6 caractères.",
+    "incorrect_current": "Mot de passe actuel incorrect.",
+    "generic_error": "Impossible de changer le mot de passe. Réessayez.",
+    "general_error": "Une erreur s'est produite. Réessayez.",
+    "success_message": "Mot de passe modifié avec succès"
+  },
+  "home": {
+    "title": "Objets trouvés",
+    "search_hint": "Recherchez votre objet...",
+    "recently_found": "Récemment trouvé",
+    "see_all": "Voir tout"
+  },
+  "nav": {
+    "home": "Accueil",
+    "browse": "Parcourir",
+    "claims": "Mes objets",
+    "settings": "Paramètres"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "account": "Compte",
+    "view_account": "Infos du compte",
+    "preferences": "Préférences",
+    "notifications": "Notifications",
+    "language": "Langue",
+    "theme": "Thème (Clair/Sombre)",
+    "support": "Assistance",
+    "faq": "FAQ & Aide",
+    "privacy": "Politique de confidentialité",
+    "logout": "Se déconnecter"
+  },
+  "filter": {
+    "title": "Où pensez-vous l'avoir perdu ?",
+    "category": "Catégorie",
+    "date_range": "Plage de dates",
+    "from_date": "De : {}",
+    "to_date": "À : {}",
+    "from_date_placeholder": "Date de début",
+    "to_date_placeholder": "Date de fin",
+    "button": "Rechercher",
+    "invalid_date": "Veuillez saisir une date valide (non future)."
+  },
+  "account": {
+    "title": "Infos du compte",
+    "name": "Nom complet",
+    "email": "E-mail",
+    "role": "Rôle",
+    "password": "Mot de passe",
+    "change": "Changer"
+  },
+  "splash": {
+    "title": "Objets Trouvés Intelligents"
+  },
+  "language": {
+    "title": "Choisir la langue",
+    "en": "Anglais",
+    "ar": "Arabe",
+    "fr": "Français",
+    "es": "Espagnol",
+    "de": "Allemand",
+    "pt": "Portugais",
+    "zh": "Chinois",
+    "it": "Italien"
+  },
+  "claims": {
+    "title": "Mes Réclamations",
+    "no_items": "Vous n'avez encore réclamé aucun objet."
+  }
+}

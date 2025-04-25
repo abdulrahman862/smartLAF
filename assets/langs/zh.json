@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "登录",
+    "email": "电子邮件",
+    "password": "密码",
+    "button": "登录",
+    "no_account": "还没有账户？",
+    "signup": "注册",
+    "enter_both": "请输入电子邮件和密码。",
+    "user_not_found": "未找到使用该电子邮件的账户。",
+    "wrong_password": "密码不正确。",
+    "invalid_email": "请输入有效的电子邮件地址。",
+    "too_many_attempts": "尝试次数过多，请稍后再试。",
+    "network_error": "网络错误，请检查您的连接。",
+    "user_disabled": "该账户已被禁用，请联系支持。",
+    "failed": "登录失败：",
+    "general_error": "出现错误，请重试。",
+    "role_missing": "您的账户缺少角色信息，请联系支持。"
+  },
+  "register": {
+    "title": "创建账户",
+    "full_name": "全名",
+    "email": "电子邮件",
+    "password": "密码",
+    "employee_id": "员工编号",
+    "button": "注册",
+    "fill_all_fields": "请填写所有字段。",
+    "email_exists": "该电子邮件已注册。",
+    "weak_password": "密码太弱。",
+    "invalid_email": "电子邮件格式无效。",
+    "auth_error": "身份验证错误：",
+    "firestore_error": "保存用户数据时出错，请重试。",
+    "general_error": "发生意外错误。",
+    "success_message": "您已准备就绪"
+  },
+  "change_password": {
+    "title": "更改密码",
+    "current": "当前密码",
+    "new": "新密码",
+    "confirm": "确认新密码",
+    "button": "更新密码",
+    "mismatch": "新密码不匹配。",
+    "too_short": "密码至少为6个字符。",
+    "incorrect_current": "当前密码不正确。",
+    "generic_error": "无法更改密码，请重试。",
+    "general_error": "发生错误，请重试。",
+    "success_message": "密码更改成功"
+  },
+  "home": {
+    "title": "失物招领",
+    "search_hint": "搜索您的物品...",
+    "recently_found": "最近找到",
+    "see_all": "查看全部"
+  },
+  "nav": {
+    "home": "主页",
+    "browse": "浏览",
+    "claims": "我的认领",
+    "settings": "设置"
+  },
+  "settings": {
+    "title": "设置",
+    "account": "账户",
+    "view_account": "查看账户信息",
+    "preferences": "偏好设置",
+    "notifications": "通知",
+    "language": "语言",
+    "theme": "主题（浅色/深色）",
+    "support": "支持",
+    "faq": "常见问题与帮助",
+    "privacy": "隐私政策",
+    "logout": "退出登录"
+  },
+  "filter": {
+    "title": "您可能在哪里丢失了它？",
+    "category": "类别",
+    "date_range": "日期范围",
+    "from_date": "从：{}",
+    "to_date": "到：{}",
+    "from_date_placeholder": "起始日期",
+    "to_date_placeholder": "结束日期",
+    "button": "搜索",
+    "invalid_date": "请输入有效日期（不能是未来时间）。"
+  },
+  "account": {
+    "title": "账户信息",
+    "name": "全名",
+    "email": "电子邮件",
+    "role": "角色",
+    "password": "密码",
+    "change": "更改"
+  },
+  "splash": {
+    "title": "智能失物招领"
+  },
+  "language": {
+    "title": "选择语言",
+    "en": "英语",
+    "ar": "阿拉伯语",
+    "fr": "法语",
+    "es": "西班牙语",
+    "de": "德语",
+    "pt": "葡萄牙语",
+    "zh": "中文",
+    "it": "意大利语"
+  },
+  "claims": {
+    "title": "我的认领",
+    "no_items": "你还没有认领任何物品。"
+  }
+}

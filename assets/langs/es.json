@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "button": "Entrar",
+    "no_account": "¿No tienes una cuenta?",
+    "signup": "Regístrate",
+    "enter_both": "Por favor, ingresa correo y contraseña.",
+    "user_not_found": "No se encontró una cuenta con ese correo.",
+    "wrong_password": "La contraseña es incorrecta.",
+    "invalid_email": "Por favor, introduce un correo válido.",
+    "too_many_attempts": "Demasiados intentos. Intenta más tarde.",
+    "network_error": "Error de red. Revisa tu conexión.",
+    "user_disabled": "Esta cuenta ha sido deshabilitada. Contacta soporte.",
+    "failed": "Error al iniciar sesión:",
+    "general_error": "Ocurrió un error. Intenta de nuevo.",
+    "role_missing": "Falta información del rol. Contacta soporte."
+  },
+  "register": {
+    "title": "Crear cuenta",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "employee_id": "ID de empleado",
+    "button": "Registrarse",
+    "fill_all_fields": "Por favor, completa todos los campos.",
+    "email_exists": "Este correo ya está registrado.",
+    "weak_password": "La contraseña es muy débil.",
+    "invalid_email": "Formato de correo inválido.",
+    "auth_error": "Error de autenticación:",
+    "firestore_error": "Error al guardar los datos. Intenta de nuevo.",
+    "general_error": "Ocurrió un error inesperado.",
+    "success_message": "Todo listo"
+  },
+  "change_password": {
+    "title": "Cambiar contraseña",
+    "current": "Contraseña actual",
+    "new": "Nueva contraseña",
+    "confirm": "Confirmar nueva contraseña",
+    "button": "Actualizar contraseña",
+    "mismatch": "Las contraseñas no coinciden.",
+    "too_short": "La contraseña debe tener al menos 6 caracteres.",
+    "incorrect_current": "La contraseña actual es incorrecta.",
+    "generic_error": "No se pudo cambiar la contraseña. Intenta de nuevo.",
+    "general_error": "Algo salió mal. Intenta de nuevo.",
+    "success_message": "Contraseña cambiada con éxito"
+  },
+  "home": {
+    "title": "Objetos perdidos",
+    "search_hint": "Busca tu objeto...",
+    "recently_found": "Recientemente encontrados",
+    "see_all": "Ver todos"
+  },
+  "nav": {
+    "home": "Inicio",
+    "browse": "Explorar",
+    "claims": "Mis reclamos",
+    "settings": "Ajustes"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "account": "Cuenta",
+    "view_account": "Ver información de cuenta",
+    "preferences": "Preferencias",
+    "notifications": "Notificaciones",
+    "language": "Idioma",
+    "theme": "Tema (Claro/Oscuro)",
+    "support": "Soporte",
+    "faq": "FAQ y Ayuda",
+    "privacy": "Política de privacidad",
+    "logout": "Cerrar sesión"
+  },
+  "filter": {
+    "title": "¿Dónde lo perdiste?",
+    "category": "Categoría",
+    "date_range": "Rango de fechas",
+    "from_date": "Desde: {}",
+    "to_date": "Hasta: {}",
+    "from_date_placeholder": "Fecha de inicio",
+    "to_date_placeholder": "Fecha de fin",
+    "button": "Buscar",
+    "invalid_date": "Ingresa una fecha válida (no en el futuro)."
+  },
+  "account": {
+    "title": "Información de cuenta",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "role": "Rol",
+    "password": "Contraseña",
+    "change": "Cambiar"
+  },
+  "splash": {
+    "title": "Objetos Perdidos Inteligentes"
+  },
+  "language": {
+    "title": "Seleccionar idioma",
+    "en": "Inglés",
+    "ar": "Árabe",
+    "fr": "Francés",
+    "es": "Español",
+    "de": "Alemán",
+    "pt": "Portugués",
+    "zh": "Chino",
+    "it": "Italiano"
+  },
+  "claims": {
+    "title": "Mis Reclamaciones",
+    "no_items": "Aún no has reclamado ningún objeto."
+  }
+}

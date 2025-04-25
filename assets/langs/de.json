@@ -1,0 +1,111 @@
+{
+  "login": {
+    "title": "Anmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "button": "Login",
+    "no_account": "Noch kein Konto?",
+    "signup": "Registrieren",
+    "enter_both": "Bitte E-Mail und Passwort eingeben.",
+    "user_not_found": "Kein Konto mit dieser E-Mail gefunden.",
+    "wrong_password": "Falsches Passwort.",
+    "invalid_email": "Bitte eine gültige E-Mail-Adresse eingeben.",
+    "too_many_attempts": "Zu viele Versuche. Bitte später erneut versuchen.",
+    "network_error": "Netzwerkfehler. Bitte Verbindung prüfen.",
+    "user_disabled": "Dieses Konto wurde deaktiviert. Support kontaktieren.",
+    "failed": "Anmeldefehler:",
+    "general_error": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
+    "role_missing": "Rolleninformation fehlt. Support kontaktieren."
+  },
+  "register": {
+    "title": "Konto erstellen",
+    "full_name": "Vollständiger Name",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "employee_id": "Mitarbeiter-ID",
+    "button": "Registrieren",
+    "fill_all_fields": "Bitte alle Felder ausfüllen.",
+    "email_exists": "Diese E-Mail ist bereits registriert.",
+    "weak_password": "Passwort ist zu schwach.",
+    "invalid_email": "Ungültiges E-Mail-Format.",
+    "auth_error": "Authentifizierungsfehler:",
+    "firestore_error": "Fehler beim Speichern der Daten. Bitte erneut versuchen.",
+    "general_error": "Unerwarteter Fehler aufgetreten.",
+    "success_message": "Du bist startklar"
+  },
+  "change_password": {
+    "title": "Passwort ändern",
+    "current": "Aktuelles Passwort",
+    "new": "Neues Passwort",
+    "confirm": "Neues Passwort bestätigen",
+    "button": "Passwort aktualisieren",
+    "mismatch": "Passwörter stimmen nicht überein.",
+    "too_short": "Passwort muss mindestens 6 Zeichen lang sein.",
+    "incorrect_current": "Aktuelles Passwort ist falsch.",
+    "generic_error": "Passwortänderung fehlgeschlagen. Bitte erneut versuchen.",
+    "general_error": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
+    "success_message": "Passwort erfolgreich geändert"
+  },
+  "home": {
+    "title": "Fundsachen",
+    "search_hint": "Suche nach deinem Gegenstand...",
+    "recently_found": "Kürzlich gefunden",
+    "see_all": "Alle anzeigen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "browse": "Durchsuchen",
+    "claims": "Meine Funde",
+    "settings": "Einstellungen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "account": "Konto",
+    "view_account": "Kontoinformationen anzeigen",
+    "preferences": "Einstellungen",
+    "notifications": "Benachrichtigungen",
+    "language": "Sprache",
+    "theme": "Design (Hell/Dunkel)",
+    "support": "Support",
+    "faq": "FAQ & Hilfe",
+    "privacy": "Datenschutzrichtlinie",
+    "logout": "Abmelden"
+  },
+  "filter": {
+    "title": "Wo hast du es verloren?",
+    "category": "Kategorie",
+    "date_range": "Zeitraum",
+    "from_date": "Von: {}",
+    "to_date": "Bis: {}",
+    "from_date_placeholder": "Startdatum",
+    "to_date_placeholder": "Enddatum",
+    "button": "Suchen",
+    "invalid_date": "Gültiges Datum eingeben (nicht in der Zukunft)."
+  },
+  "account": {
+    "title": "Kontoinformationen",
+    "name": "Vollständiger Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "password": "Passwort",
+    "change": "Ändern"
+  },
+  "splash": {
+    "title": "Intelligente Fundsachen"
+  },
+  "language": {
+    "title": "Sprache auswählen",
+    "en": "Englisch",
+    "ar": "Arabisch",
+    "fr": "Französisch",
+    "es": "Spanisch",
+    "de": "Deutsch",
+    "pt": "Portugiesisch",
+    "zh": "Chinesisch",
+    "it": "Italienisch"
+  },
+  "claims": {
+    "title": "Meine Ansprüche",
+    "no_items": "Du hast noch keine Gegenstände beansprucht."
+  }
+}
