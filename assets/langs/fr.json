@@ -48,9 +48,8 @@
   },
   "home": {
     "title": "Objets trouvés",
-    "search_hint": "Recherchez votre objet...",
-    "recently_found": "Récemment trouvé",
-    "see_all": "Voir tout"
+    "swipe_find": "Glissez à droite pour chercher",
+    "swipe_report": "Glissez à gauche pour signaler"
   },
   "nav": {
     "home": "Accueil",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "Mes Réclamations",
     "no_items": "Vous n'avez encore réclamé aucun objet."
+  },
+  "report": {
+    "title": "Qu'avez-vous trouvé ?",
+    "location_prompt": "Où l'avez-vous trouvé ?",
+    "button": "Soumettre le rapport",
+    "fill_all_fields": "Veuillez remplir tous les champs.",
+    "invalid_range": "La date de fin ne peut pas précéder la date de début.",
+    "success": "Merci pour votre signalement !"
   }
 }

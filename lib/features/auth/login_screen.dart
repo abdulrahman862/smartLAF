@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:prototype1/features/auth/screens/register_screen.dart';
-import '../../home/screens/User_home_screen.dart';
-import '../../home/screens/admin_home_screen.dart';
+import 'package:prototype1/features/auth/register_screen.dart';
+import 'package:prototype1/features/User/User_home_screen.dart';
+import 'package:prototype1/features/admin/admin_home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   final ValueNotifier<ThemeMode> themeNotifier;

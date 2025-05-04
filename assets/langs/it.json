@@ -47,10 +47,9 @@
     "success_message": "Password cambiata con successo"
   },
   "home": {
-    "title": "Oggetti Smarriti",
-    "search_hint": "Cerca il tuo oggetto...",
-    "recently_found": "Appena Trovati",
-    "see_all": "Vedi Tutto"
+    "title": "Oggetti smarriti",
+    "swipe_find": "Scorri a destra per cercare",
+    "swipe_report": "Scorri a sinistra per segnalare"
   },
   "nav": {
     "home": "Home",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "I Miei Reclami",
     "no_items": "Non hai ancora reclamato nessun oggetto."
+  },
+  "report": {
+    "title": "Cosa hai trovato?",
+    "location_prompt": "Dove l'hai trovato?",
+    "button": "Invia segnalazione",
+    "fill_all_fields": "Per favore, completa tutti i campi.",
+    "invalid_range": "La data di fine non può precedere la data di inizio.",
+    "success": "Grazie per la segnalazione!"
   }
 }

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:prototype1/features/home/screens/my_claims_screen.dart';
-import 'package:prototype1/features/home/screens/settings_screen.dart';
-import 'package:prototype1/features/home/screens/user_home_screen.dart';
-import 'package:prototype1/features/home/screens/SearchResultsScreen.dart';
+import 'package:prototype1/features/User/my_claims_screen.dart';
+import 'package:prototype1/features/User/settings_screen.dart';
+import 'package:prototype1/features/User/User_home_screen.dart';
+import 'package:prototype1/features/User/SearchResultsScreen.dart';
 
 class FilterBySearchScreen extends StatefulWidget {
   final ValueNotifier<ThemeMode> themeNotifier;
@@ -115,6 +115,27 @@ class _FilterBySearchScreenState extends State<FilterBySearchScreen> {
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
+      appBar: AppBar(
+        backgroundColor: theme.scaffoldBackgroundColor,
+        elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          color: theme.iconTheme.color,
+          onPressed: () {
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (_) => HomeScreen(themeNotifier: widget.themeNotifier)),
+            );
+          },
+        ),
+        title: Text(
+          'filter.title'.tr(),
+          style: TextStyle(
+            color: theme.textTheme.bodyLarge?.color,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(20),
@@ -227,35 +248,6 @@ class _FilterBySearchScreenState extends State<FilterBySearchScreen> {
             ],
           ),
         ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.black,
-        unselectedItemColor: Colors.grey,
-        currentIndex: 1,
-        onTap: (index) {
-          if (index == 0) {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(builder: (_) => HomeScreen(themeNotifier: widget.themeNotifier)),
-            );
-          } else if (index == 2) {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(builder: (_) => MyClaimsScreen(themeNotifier: widget.themeNotifier)),
-            );
-          } else if (index == 3) {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(builder: (_) => SettingsScreen(themeNotifier: widget.themeNotifier)),
-            );
-          }
-        },
-        items: [
-          BottomNavigationBarItem(icon: const Icon(Icons.home), label: 'nav.home'.tr()),
-          BottomNavigationBarItem(icon: const Icon(Icons.search), label: 'nav.browse'.tr()),
-          BottomNavigationBarItem(icon: const Icon(Icons.check_circle), label: 'nav.claims'.tr()),
-          BottomNavigationBarItem(icon: const Icon(Icons.settings), label: 'nav.settings'.tr()),
-        ],
       ),
     );
   }

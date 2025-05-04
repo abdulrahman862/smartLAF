@@ -48,9 +48,8 @@
   },
   "home": {
     "title": "Achados e Perdidos",
-    "search_hint": "Procure seu item...",
-    "recently_found": "Recentemente Encontrados",
-    "see_all": "Ver Todos"
+    "swipe_find": "Deslize para a direita para buscar",
+    "swipe_report": "Deslize para a esquerda para reportar"
   },
   "nav": {
     "home": "Início",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "Minhas Reivindicações",
     "no_items": "Você ainda não reivindicou nenhum item."
+  },
+  "report": {
+    "title": "O que você encontrou?",
+    "location_prompt": "Onde você o encontrou?",
+    "button": "Enviar Relatório",
+    "fill_all_fields": "Por favor, preencha todos os campos.",
+    "invalid_range": "A data final não pode ser anterior à data inicial.",
+    "success": "Obrigado pelo seu relatório!"
   }
 }

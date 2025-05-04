@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'features/home/screens/SearchResultsScreen.dart';
-import 'features/home/screens/filter_by_search_screen.dart';
-import 'features/home/screens/user_home_screen.dart';
-import 'features/home/screens/admin_home_screen.dart';
-import 'features/auth/screens/login_screen.dart';
-import 'features/auth/screens/splash_screen.dart';
+import 'package:prototype1/features/User/SearchResultsScreen.dart';
+import 'package:prototype1/features/User/filter_by_search_screen.dart';
+import 'package:prototype1/features/User/User_home_screen.dart';
+import 'package:prototype1/features/admin/admin_home_screen.dart';
+import 'package:prototype1/features/auth/login_screen.dart';
+import 'package:prototype1/features/auth/splash_screen.dart';
 
 class MyApp extends StatelessWidget {
   final ValueNotifier<ThemeMode> themeNotifier;

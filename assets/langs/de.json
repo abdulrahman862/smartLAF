@@ -47,10 +47,9 @@
     "success_message": "Passwort erfolgreich geändert"
   },
   "home": {
-    "title": "Fundsachen",
-    "search_hint": "Suche nach deinem Gegenstand...",
-    "recently_found": "Kürzlich gefunden",
-    "see_all": "Alle anzeigen"
+    "title": "Fundbüro",
+    "swipe_find": "Nach rechts wischen, um zu suchen",
+    "swipe_report": "Nach links wischen, um zu melden"
   },
   "nav": {
     "home": "Startseite",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "Meine Ansprüche",
     "no_items": "Du hast noch keine Gegenstände beansprucht."
+  },
+  "report": {
+    "title": "Was haben Sie gefunden?",
+    "location_prompt": "Wo haben Sie es gefunden?",
+    "button": "Bericht absenden",
+    "fill_all_fields": "Bitte füllen Sie alle Felder aus.",
+    "invalid_range": "Das Enddatum darf nicht vor dem Startdatum liegen.",
+    "success": "Danke für Ihre Meldung!"
   }
 }

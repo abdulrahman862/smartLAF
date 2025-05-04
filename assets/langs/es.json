@@ -48,9 +48,8 @@
   },
   "home": {
     "title": "Objetos perdidos",
-    "search_hint": "Busca tu objeto...",
-    "recently_found": "Recientemente encontrados",
-    "see_all": "Ver todos"
+    "swipe_find": "Desliza a la derecha para buscar",
+    "swipe_report": "Desliza a la izquierda para reportar"
   },
   "nav": {
     "home": "Inicio",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "Mis Reclamaciones",
     "no_items": "Aún no has reclamado ningún objeto."
+  },
+  "report": {
+    "title": "¿Qué encontraste?",
+    "location_prompt": "¿Dónde lo encontraste?",
+    "button": "Enviar reporte",
+    "fill_all_fields": "Por favor complete todos los campos.",
+    "invalid_range": "La fecha final no puede ser anterior a la fecha inicial.",
+    "success": "¡Gracias por reportar!"
   }
 }

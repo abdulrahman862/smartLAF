@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:prototype1/features/auth/screens/change_password_success_screen.dart';
+import 'package:prototype1/features/auth/change_password_success_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class ChangePasswordScreen extends StatefulWidget {

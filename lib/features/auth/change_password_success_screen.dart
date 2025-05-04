@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:prototype1/features/home/screens/account_info_screen.dart';
+import 'package:prototype1/features/User/account_info_screen.dart';
 
 class ChangePasswordSuccessScreen extends StatefulWidget {
   const ChangePasswordSuccessScreen({super.key});

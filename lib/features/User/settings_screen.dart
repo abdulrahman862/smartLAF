@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:prototype1/features/home/screens/my_claims_screen.dart';
-import 'package:prototype1/features/home/screens/user_home_screen.dart';
-import 'package:prototype1/features/home/screens/filter_by_search_screen.dart';
-import 'package:prototype1/features/home/screens/account_info_screen.dart';
-import 'package:prototype1/features/home/screens/language_selection_screen.dart';
+import 'package:prototype1/features/User/my_claims_screen.dart';
+import 'package:prototype1/features/User/User_home_screen.dart';
+import 'package:prototype1/features/User/account_info_screen.dart';
+import 'package:prototype1/features/User/language_selection_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
   final ValueNotifier<ThemeMode> themeNotifier;
@@ -101,19 +100,22 @@ class SettingsScreen extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.black,
         unselectedItemColor: Colors.grey,
-        currentIndex: 3,
+        currentIndex: 2,
         onTap: (index) {
           if (index == 0) {
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => HomeScreen(themeNotifier: themeNotifier)));
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (_) => HomeScreen(themeNotifier: themeNotifier)),
+            );
           } else if (index == 1) {
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => FilterBySearchScreen(themeNotifier: themeNotifier)));
-          } else if (index == 2) {
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => MyClaimsScreen(themeNotifier: themeNotifier)));
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (_) => MyClaimsScreen(themeNotifier: themeNotifier)),
+            );
           }
         },
         items: [
           BottomNavigationBarItem(icon: const Icon(Icons.home), label: 'nav.home'.tr()),
-          BottomNavigationBarItem(icon: const Icon(Icons.search), label: 'nav.browse'.tr()),
           BottomNavigationBarItem(icon: const Icon(Icons.check_circle), label: 'nav.claims'.tr()),
           BottomNavigationBarItem(icon: const Icon(Icons.settings), label: 'nav.settings'.tr()),
         ],

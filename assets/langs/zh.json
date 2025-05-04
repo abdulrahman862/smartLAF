@@ -48,9 +48,8 @@
   },
   "home": {
     "title": "失物招领",
-    "search_hint": "搜索您的物品...",
-    "recently_found": "最近找到",
-    "see_all": "查看全部"
+    "swipe_find": "向右滑动以搜索",
+    "swipe_report": "向左滑动以上报"
   },
   "nav": {
     "home": "主页",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "我的认领",
     "no_items": "你还没有认领任何物品。"
+  },
+  "report": {
+    "title": "你找到了什么？",
+    "location_prompt": "你在哪里找到的？",
+    "button": "提交报告",
+    "fill_all_fields": "请填写所有字段。",
+    "invalid_range": "结束日期不能早于开始日期。",
+    "success": "感谢您的报告！"
   }
 }

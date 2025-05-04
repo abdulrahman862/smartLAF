@@ -33,7 +33,7 @@ dependencies:
   # 🧾 Form validators
   form_field_validator: ^1.1.0
 
-  # 💾 Preferences (🆕)
+  # 💾 Preferences
   shared_preferences: ^2.2.2
 
   # 🎯 Core Icons
@@ -50,6 +50,8 @@ flutter:
   assets:
     - assets/lottie/Animation - 1743866333824.json
     - assets/lottie/Animation - 1743893659152.json
+    - assets/lottie/Animation - 1746199354735.json
+    - assets/lottie/arrow right.json
     - assets/flags/
     - assets/langs/en.json
     - assets/langs/ar.json
@@ -59,4 +61,3 @@ flutter:
     - assets/langs/pt.json
     - assets/langs/zh.json
     - assets/langs/it.json  # ✅ Don't forget this one!
-

@@ -48,9 +48,8 @@
   },
   "home": {
     "title": "Lost & Found",
-    "search_hint": "Search for your item...",
-    "recently_found": "Recently Found",
-    "see_all": "See All"
+    "swipe_find": "Swipe right to search",
+    "swipe_report": "Swipe left to report"
   },
   "nav": {
     "home": "Home",
@@ -107,5 +106,13 @@
   "claims": {
     "title": "My Claims",
     "no_items": "You haven’t claimed any items yet."
+  },
+  "report": {
+    "title": "What did you find?",
+    "location_prompt": "Where did you find it?",
+    "button": "Submit Report",
+    "fill_all_fields": "Please complete all fields.",
+    "invalid_range": "To date cannot be before from date.",
+    "success": "Thank you for reporting!"
   }
 }
