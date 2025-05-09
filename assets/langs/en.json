@@ -113,6 +113,7 @@
     "button": "Submit Report",
     "fill_all_fields": "Please complete all fields.",
     "invalid_range": "To date cannot be before from date.",
-    "success": "Thank you for reporting!"
+    "success": "Thank you for reporting!",
+    "thank_you": "Thank you for reporting!"
   }
 }

@@ -113,6 +113,7 @@
     "button": "Enviar reporte",
     "fill_all_fields": "Por favor complete todos los campos.",
     "invalid_range": "La fecha final no puede ser anterior a la fecha inicial.",
-    "success": "¡Gracias por reportar!"
+    "success": "¡Gracias por reportar!",
+    "thank_you": "¡Gracias por reportar!"
   }
 }

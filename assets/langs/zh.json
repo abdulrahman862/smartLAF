@@ -113,6 +113,7 @@
     "button": "提交报告",
     "fill_all_fields": "请填写所有字段。",
     "invalid_range": "结束日期不能早于开始日期。",
-    "success": "感谢您的报告！"
+    "success": "感谢您的报告！",
+    "thank_you": "感谢您的报告！"
   }
 }

@@ -113,6 +113,8 @@
     "button": "Soumettre le rapport",
     "fill_all_fields": "Veuillez remplir tous les champs.",
     "invalid_range": "La date de fin ne peut pas précéder la date de début.",
-    "success": "Merci pour votre signalement !"
+    "success": "Merci pour votre signalement !",
+    "thank_you": "Merci pour votre signalement !"
+
   }
 }

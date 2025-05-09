@@ -113,6 +113,7 @@
     "button": "Invia segnalazione",
     "fill_all_fields": "Per favore, completa tutti i campi.",
     "invalid_range": "La data di fine non può precedere la data di inizio.",
-    "success": "Grazie per la segnalazione!"
+    "success": "Grazie per la segnalazione!",
+    "thank_you": "Grazie per la segnalazione!"
   }
 }

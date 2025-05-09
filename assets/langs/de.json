@@ -113,6 +113,7 @@
     "button": "Bericht absenden",
     "fill_all_fields": "Bitte füllen Sie alle Felder aus.",
     "invalid_range": "Das Enddatum darf nicht vor dem Startdatum liegen.",
-    "success": "Danke für Ihre Meldung!"
+    "success": "Danke für Ihre Meldung!",
+    "thank_you": "Danke für Ihre Meldung!"
   }
 }

@@ -113,6 +113,7 @@
     "button": "Enviar Relatório",
     "fill_all_fields": "Por favor, preencha todos os campos.",
     "invalid_range": "A data final não pode ser anterior à data inicial.",
-    "success": "Obrigado pelo seu relatório!"
+    "success": "Obrigado pelo seu relatório!",
+    "thank_you": "Obrigado por relatar!"
   }
 }
