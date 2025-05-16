@@ -3,7 +3,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:prototype1/features/User/SearchResultsScreen.dart';
 import 'package:prototype1/features/User/filter_by_search_screen.dart';
 import 'package:prototype1/features/User/User_home_screen.dart';
-import 'package:prototype1/features/admin/admin_home_screen.dart';
+import 'package:prototype1/features/admin/Admin_home_screen.dart';
 import 'package:prototype1/features/auth/login_screen.dart';
 import 'package:prototype1/features/auth/splash_screen.dart';
 

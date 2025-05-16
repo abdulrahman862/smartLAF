@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 class AdminHomeScreen extends StatelessWidget {
   final ValueNotifier<ThemeMode> themeNotifier;
@@ -8,23 +7,31 @@ class AdminHomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
     return Scaffold(
-      backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
-        title: Text(
-          tr('admin.title'), // Optional: add localization if needed
-          style: TextStyle(color: theme.appBarTheme.foregroundColor ?? theme.primaryTextTheme.titleLarge?.color),
-        ),
-        backgroundColor: theme.appBarTheme.backgroundColor ?? theme.colorScheme.surface,
-        elevation: 0,
-        iconTheme: theme.iconTheme,
+        title: const Text('Security Dashboard'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.brightness_6),
+            onPressed: () {
+              themeNotifier.value = themeNotifier.value == ThemeMode.light
+                  ? ThemeMode.dark
+                  : ThemeMode.light;
+            },
+          )
+        ],
       ),
       body: Center(
-        child: Text(
-          tr('admin.welcome'), // Optional: add localized welcome message
-          style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const [
+            Icon(Icons.videocam, size: 100, color: Colors.grey),
+            SizedBox(height: 12),
+            Text(
+              'Live Camera Stream (placeholder)',
+              style: TextStyle(fontSize: 18),
+            ),
+          ],
         ),
       ),
     );
